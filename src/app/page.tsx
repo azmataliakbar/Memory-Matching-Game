@@ -101,6 +101,7 @@ const MemoryGame = () => {
         >
           Restart Game
         </button>
+        <h4 className="font-bold mt-4">Author:Azmat Ali</h4>
       </div>
     </div>
   );
