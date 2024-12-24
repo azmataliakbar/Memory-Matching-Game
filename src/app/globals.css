@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  background-image: url('/fly8.gif');
+  background-size: cover; /* Makes the image cover the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
